@@ -1,0 +1,11 @@
+.trendig-page{
+    padding: 20px;
+    text-align: center;
+}
+
+.the-trends{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
