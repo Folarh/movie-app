@@ -1,0 +1,14 @@
+.card{
+    display: flex;
+    flex-direction: column;
+    max-width: 300px;
+    padding: 20px;
+    background-color: var(--background);
+    border-radius: 5px;
+    gap: 5px;
+}
+
+.card:hover{
+background-color: #cde2f0;
+color: grey;
+}

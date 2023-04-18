@@ -1,8 +1,19 @@
-.search-page{
+.search{
     padding: 20px;
     text-align: center;
+    border: 2px solid green;
+}
+
+.search-page{
+   
     margin: 15px 0;
     display: flex;
     justify-content: center;
     align-items: center;
+   
+}
+
+.results-page{
+display: flex;
+flex-wrap: wrap;
 }
