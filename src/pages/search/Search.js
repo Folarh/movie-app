@@ -18,10 +18,10 @@ export default function Search() {
       .then((data) => setResults(data.results))
       .catch((error) => console.error(error));
   };
-  console.log(results);
+
   return (
     <div className="search">
-      <div className="search-page">
+      <form className="search-page">
         <TextField
           style={{ flex: 0.3 }}
           label="search"
@@ -30,13 +30,14 @@ export default function Search() {
           onChange={(e) => setQuery(e.target.value)}
         />
         <Button
+          // class="btn"
           variant="contained"
           style={{ marginLeft: 10 }}
           onClick={handleSubmit}
         >
           <SearchIcon />
         </Button>
-      </div>
+      </form>
       <div className="results-page">
         {results.map((result) => (
           <SearchList result={result} />

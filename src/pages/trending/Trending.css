@@ -3,6 +3,10 @@
     text-align: center;
 }
 
+.page-title{
+    color: white;
+}
+
 .the-trends{
     display: flex;
     justify-content: space-around;

@@ -1,7 +1,10 @@
 .search{
     padding: 20px;
     text-align: center;
-    border: 2px solid green;
+    top: 0;
+    position: sticky;
+    z-index: 1;
+    
 }
 
 .search-page{
@@ -10,10 +13,28 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    font-size: 5vw;
    
 }
 
 .results-page{
 display: flex;
+  justify-content: space-around;;
 flex-wrap: wrap;
+align-items: center;
+}
+
+@media (max-width: 1000px){
+    .search-page{
+        font-size: 7vw;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+       
+    }
+
+    .search-page Button{
+        margin-top: 20px;
+       
+    }
 }

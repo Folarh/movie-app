@@ -14,6 +14,9 @@ body{
 
 .app{
     min-height: 100vh;
+    /* background: linear-gradient(to right, brown, rgb(41, 30,32), #221f1f); */
+    background-color: grey;
+   
 }
  .page-title{
     display: flex;
@@ -22,7 +25,7 @@ body{
     font-size: 2vw;
     padding: 4px;
     border-radius:  50px;
-    color: grey;
+    color: white;
  }
 
 

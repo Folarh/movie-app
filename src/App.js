@@ -11,6 +11,7 @@ import Trending from "./pages/trending/Trending";
 import Movies from "./pages/movies/Movies";
 import Series from "./pages/series/Series";
 import Search from "./pages/search/Search";
+import MovieDetails from "./pages/details/MovieDetails";
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
             <Route path="/movies" element={<Movies />} />
             <Route path="/series" element={<Series />} />
             <Route path="/search" element={<Search />} />
+            <Route path="/MovieDetails/:id" element={<MovieDetails />} />
           </Routes>
         </div>
       </div>
